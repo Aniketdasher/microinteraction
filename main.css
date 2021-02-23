@@ -1,0 +1,58 @@
+body {
+  background: #0077b6;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  height: 100vh;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  position: relative;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  text-align: center;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: .2em;
+  outline: none;
+  width: 10em;
+  font-family: 'Dosis', sans-serif;
+}
+
+button:before {
+  position: absolute;
+  content: '';
+  background: #00b4d8;
+  height: 100%;
+  width: 100%;
+  top: 0.5em;
+  left: 0.5em;
+  z-index: -1;
+  border-radius: 0.2em;
+}
+
+p {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: .2rem;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+  text-transform: uppercase;
+}
+
+svg {
+  position: absolute;
+  top: .7em;
+  left: .5em;
+  stroke-dasharray: 0 103;
+}
+/*# sourceMappingURL=main.css.map */
